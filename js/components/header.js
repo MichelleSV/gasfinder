@@ -13,5 +13,9 @@ const Header = (update) => {
   header.append(cuadroicon)
   header.append(input);
 
+  input.on('keyup', ()=>{
+    filterByDistrict(state.stations, input.val());
+
+  });
   return header;
 }
