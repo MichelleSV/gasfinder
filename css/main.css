@@ -33,3 +33,11 @@ header .fa-chevron-left {
 .fa-search{
   color: #c4bebe;
 }
+.seleccion{
+  width: 100%;
+  padding: 16px;
+  height: 300px;
+  background-color: green;
+  position: absolute;
+  top: 90px;
+}
